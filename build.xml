@@ -28,10 +28,8 @@
         <javac compiler="modern" debug="true" destdir="bin" source="${source}" target="${target}"
 		includeantruntime="false">
             <src path="src"/>
-            <!--classpath refid="classpathDir"/--->
-        </javac>
-    </target>
- 
+                   </javac>
+    </target> 
    <target name="build-war" depends="build-project">
 	  <war destfile="${ARCHIVE_DIR}/${warname}" webxml="WebContent/WEB-INF/web.xml">
 	  	<webinf dir="WebContent/WEB-INF">
