@@ -28,7 +28,7 @@
         <javac compiler="modern" debug="true" destdir="bin" source="${source}" target="${target}"
 		includeantruntime="false">
             <src path="src"/>
-            <classpath refid="classpathDir"/>
+            <!--classpath refid="classpathDir"/--->
         </javac>
     </target>
  
